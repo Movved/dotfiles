@@ -1,0 +1,38 @@
+2025-06-13 12:09:53.051 [info] [main] Log level: Info
+2025-06-13 12:09:53.051 [info] [main] Validating found git in: "git"
+2025-06-13 12:09:53.051 [info] [main] Using git "2.49.0" from "git"
+2025-06-13 12:09:53.051 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-13 12:09:53.051 [info] > git rev-parse --show-toplevel [143ms]
+2025-06-13 12:09:53.051 [info] > git rev-parse --git-dir --git-common-dir [42ms]
+2025-06-13 12:09:53.051 [info] [Model][openRepository] Opened repository (path): /home/movved/Documents/projex/vanillaPomodoro
+2025-06-13 12:09:53.051 [info] [Model][openRepository] Opened repository (real path): /home/movved/Documents/projex/vanillaPomodoro
+2025-06-13 12:09:53.051 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-13 12:09:53.054 [info] > git config --get commit.template [62ms]
+2025-06-13 12:09:53.080 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2025-06-13 12:09:53.096 [info] > git status -z -uall [8ms]
+2025-06-13 12:09:53.098 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [3ms]
+2025-06-13 12:09:53.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [9ms]
+2025-06-13 12:09:53.153 [info] > git config --get --local branch.main.vscode-merge-base [2ms]
+2025-06-13 12:09:53.154 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-13 12:09:53.159 [info] > git config --get commit.template [15ms]
+2025-06-13 12:09:53.167 [info] > git reflog main --grep-reflog=branch: Created from *. [8ms]
+2025-06-13 12:09:53.173 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2025-06-13 12:09:53.174 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2025-06-13 12:09:53.190 [info] > git status -z -uall [6ms]
+2025-06-13 12:09:53.191 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [13ms]
+2025-06-13 12:09:53.197 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [7ms]
+2025-06-13 12:09:53.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2025-06-13 12:09:53.215 [info] > git config --add --local branch.main.vscode-merge-base origin/main [19ms]
+2025-06-13 12:09:53.225 [info] > git config --get --local branch.main.vscode-merge-base [11ms]
+2025-06-13 12:09:53.231 [info] > git config --get commit.template [10ms]
+2025-06-13 12:09:53.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [2ms]
+2025-06-13 12:09:53.257 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [14ms]
+2025-06-13 12:09:53.258 [info] > git merge-base refs/heads/main refs/remotes/origin/main [20ms]
+2025-06-13 12:09:53.268 [info] > git diff --name-status -z --diff-filter=ADMR 870236c14d7fdd2467c259d6edcd8d078e83fee8...refs/remotes/origin/main [5ms]
+2025-06-13 12:09:53.286 [info] > git status -z -uall [12ms]
+2025-06-13 12:09:53.288 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [4ms]
+2025-06-13 12:09:53.576 [info] > git check-ignore -v -z --stdin [3ms]
+2025-06-13 12:09:56.162 [info] > git show --textconv :logic.js [14ms]
+2025-06-13 12:09:56.166 [info] > git ls-files --stage -- logic.js [5ms]
+2025-06-13 12:09:56.178 [info] > git cat-file -s 4f1bb9e7629769b589a8216073d6cd662c84c09b [3ms]
+2025-06-13 12:09:59.557 [info] > git blame --root --incremental 870236c14d7fdd2467c259d6edcd8d078e83fee8 -- logic.js [8ms]

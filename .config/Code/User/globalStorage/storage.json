@@ -1,0 +1,110 @@
+{
+    "telemetry.sqmId": "",
+    "telemetry.machineId": "db4ad6e887a3ca6c5aa9a44200e21f99cefc8664d2815a25781dfe1b46967491",
+    "telemetry.devDeviceId": "27b62956-6265-4e2e-8371-2a21c091c054",
+    "backupWorkspaces": {
+        "workspaces": [],
+        "folders": [
+            {
+                "folderUri": "file:///home/movved/Documents/projex/pomodoro_react"
+            },
+            {
+                "folderUri": "file:///home/movved/Documents/projex/pomodoro_react/pomodoro"
+            }
+        ],
+        "emptyWindows": []
+    },
+    "windowControlHeight": 50,
+    "profileAssociations": {
+        "workspaces": {
+            "file:///home/movved/pomodoro_react/pomodoro": "__default__profile__",
+            "file:///home/movved/Documents/projex": "__default__profile__",
+            "file:///home/movved/Documents/projex/pomodoro_react/pomodoro": "__default__profile__",
+            "file:///home/movved/Documents/example-app": "__default__profile__",
+            "file:///home/movved/Documents/projex/pomodoro_react": "__default__profile__",
+            "file:///home/movved/Documents/projex/vanillaPomodoro": "__default__profile__"
+        },
+        "emptyWindows": {}
+    },
+    "windowsState": {
+        "lastActiveWindow": {
+            "folder": "file:///home/movved/Documents/projex/pomodoro_react/pomodoro",
+            "backupPath": "/home/movved/.config/Code/Backups/50f90d0f00da81fe2756e9ae40ae80ab",
+            "uiState": {
+                "mode": 1,
+                "x": 16,
+                "y": 61,
+                "width": 1887,
+                "height": 1002,
+                "zoomLevel": 2
+            }
+        },
+        "openedWindows": []
+    },
+    "theme": "vs-dark",
+    "themeBackground": "#1f1f1f",
+    "windowSplash": {
+        "zoomLevel": 0,
+        "baseTheme": "vs-dark",
+        "colorInfo": {
+            "foreground": "#cccccc",
+            "background": "#1f1f1f",
+            "editorBackground": "#1f1f1f",
+            "titleBarBackground": "#181818",
+            "titleBarBorder": "#2b2b2b",
+            "activityBarBackground": "#181818",
+            "activityBarBorder": "#2b2b2b",
+            "sideBarBackground": "#181818",
+            "sideBarBorder": "#2b2b2b",
+            "statusBarBackground": "#181818",
+            "statusBarBorder": "#2b2b2b",
+            "statusBarNoFolderBackground": "#1f1f1f"
+        },
+        "layoutInfo": {
+            "sideBarSide": "left",
+            "editorPartMinWidth": 220,
+            "titleBarHeight": 35,
+            "activityBarWidth": 48,
+            "sideBarWidth": 170,
+            "auxiliarySideBarWidth": 0,
+            "statusBarHeight": 22,
+            "windowBorder": false
+        }
+    },
+    "windowSplashWorkspaceOverride": {
+        "layoutInfo": {
+            "sideBarWidth": 170,
+            "auxiliaryBarWidth": 300,
+            "workspaces": {
+                "463485fc28fc4211c0b50a651f106b5f": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "9386018505fe9807f921f0477aaf7ba3": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "c870ac02016dd778ce8fa37f5eb743de": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "2d8d2be7d62194a00658cab789042531": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "dcf1807206cac4fd3e23ef23973ff1bc": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "d57f1f886fad2cf90ba3e43f36bedef9": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                },
+                "583fd555ae4a987f5fde6db25c9ec0dd": {
+                    "sideBarVisible": true,
+                    "auxiliaryBarVisible": false
+                }
+            }
+        }
+    }
+}

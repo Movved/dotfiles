@@ -1,0 +1,4 @@
+2025-06-13 11:24:34.211 [info] Started local extension host with pid 16157.
+2025-06-13 11:24:34.246 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 11:24:37.420 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-13 11:24:39.404 [info] [perf] Render performance baseline is 72ms

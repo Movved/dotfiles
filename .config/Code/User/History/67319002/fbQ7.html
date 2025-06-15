@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="logic.js" defer></script>
+</head>
+<body>
+    <main>
+        <div class="all" style="display: flex;">
+            <div class="timer">
+                <p id="time">01:00</p>
+                
+            </div>
+            <div class="control">
+                <input type="number" placeholder=" x minutes" name="user-time" id="user-time"><br>
+                <div class="buttons">
+                    <button id="play" onclick="pomodoro()"><img src="play.png" alt="play" ></button>
+                    <button id="pause" onclick="pause()"><img src="pause.png" alt="pause"></button>
+                    <button id="replay" onclick="replay()"><img src="replay.png" alt="replay" ></button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

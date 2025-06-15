@@ -1,0 +1,19 @@
+2025-06-12 15:46:33.631 [info] Extension host with pid 59112 started
+2025-06-12 15:46:33.632 [info] Skipping acquiring lock for /home/movved/.config/Code/User/workspaceStorage/dcf1807206cac4fd3e23ef23973ff1bc.
+2025-06-12 15:46:33.866 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-06-12 15:46:33.928 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-12 15:46:33.940 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-12 15:46:34.045 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2025-06-12 15:46:34.168 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-06-12 15:46:34.733 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-06-12 15:46:34.737 [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+2025-06-12 15:46:34.812 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2025-06-12 15:46:34.886 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2025-06-12 15:46:35.031 [info] Eager extensions activated
+2025-06-12 15:46:35.075 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 15:46:35.080 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 15:46:35.116 [info] ExtensionService#_doActivateExtension ritwickdey.LiveServer, startup: false, activationEvent: 'onStartupFinished'
+2025-06-12 15:46:39.739 [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+2025-06-12 15:46:40.178 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2025-06-13 01:07:31.647 [info] Extension host terminating: renderer closed the MessagePort
+2025-06-13 01:07:31.755 [info] Extension host with pid 59112 exiting with code 0

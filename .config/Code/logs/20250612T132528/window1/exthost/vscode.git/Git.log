@@ -1,0 +1,64 @@
+2025-06-12 13:25:38.322 [info] [main] Log level: Info
+2025-06-12 13:25:38.322 [info] [main] Validating found git in: "git"
+2025-06-12 13:25:38.322 [info] [main] Using git "2.49.0" from "git"
+2025-06-12 13:25:38.322 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-12 13:25:38.322 [info] > git rev-parse --show-toplevel [10ms]
+2025-06-12 13:25:38.322 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.336 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-12 13:25:38.336 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.343 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.343 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.351 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-12 13:25:38.351 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.358 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.358 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.366 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.366 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.374 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.374 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.381 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-12 13:25:38.381 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.389 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.389 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.397 [info] > git rev-parse --show-toplevel [1ms]
+2025-06-12 13:25:38.397 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.404 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.404 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.412 [info] > git rev-parse --show-toplevel [2ms]
+2025-06-12 13:25:38.412 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2025-06-12 13:25:38.416 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-12 13:27:08.737 [info] [main] Log level: Info
+2025-06-12 13:27:08.737 [info] [main] Validating found git in: "git"
+2025-06-12 13:27:08.737 [info] [main] Using git "2.49.0" from "git"
+2025-06-12 13:27:08.737 [info] [Model][doInitialScan] Initial repository scan started
+2025-06-12 13:27:08.737 [info] > git rev-parse --show-toplevel [339ms]
+2025-06-12 13:27:08.891 [info] > git rev-parse --git-dir --git-common-dir [100ms]
+2025-06-12 13:27:08.959 [info] [Model][openRepository] Opened repository (path): /home/movved/Documents/projex/pomodoro_react/pomodoro
+2025-06-12 13:27:08.959 [info] [Model][openRepository] Opened repository (real path): /home/movved/Documents/projex/pomodoro_react/pomodoro
+2025-06-12 13:27:09.350 [info] > git rev-parse --show-toplevel [191ms]
+2025-06-12 13:27:09.354 [info] > git config --get commit.template [232ms]
+2025-06-12 13:27:09.488 [info] > git rev-parse --show-toplevel [54ms]
+2025-06-12 13:27:09.538 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2025-06-12 13:27:09.541 [info] > git rev-parse --show-toplevel [4ms]
+2025-06-12 13:27:09.547 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-06-12 13:27:09.728 [info] > git status -z -uall [103ms]
+2025-06-12 13:27:09.753 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [46ms]
+2025-06-12 13:27:10.059 [info] > git check-ignore -v -z --stdin [29ms]
+2025-06-12 13:27:10.121 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [159ms]
+2025-06-12 13:27:10.205 [info] > git config --get --local branch.main.vscode-merge-base [44ms]
+2025-06-12 13:27:10.206 [warning] [Git][config] git config failed: Failed to execute git
+2025-06-12 13:27:10.229 [info] > git config --get commit.template [174ms]
+2025-06-12 13:27:10.414 [info] > git show --textconv :src/App.jsx [75ms]
+2025-06-12 13:27:10.430 [info] > git reflog main --grep-reflog=branch: Created from *. [195ms]

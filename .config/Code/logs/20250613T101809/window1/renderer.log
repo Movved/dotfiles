@@ -1,0 +1,9 @@
+2025-06-13 10:18:10.575 [info] Started local extension host with pid 7798.
+2025-06-13 10:18:10.606 [info] ComputeTargetPlatform: linux-x64
+2025-06-13 10:18:10.726 [info] ChatSessionStore: Migrating 0 chat sessions from storage service to file system
+2025-06-13 10:18:12.383 [info] Settings Sync: Account status changed from uninitialized to unavailable
+2025-06-13 10:18:13.265 [info] [perf] Render performance baseline is 42ms
+2025-06-13 10:59:26.209 [error] spawn truecolor ENOENT: Error: spawn truecolor ENOENT
+    at ChildProcess._handle.onexit (node:internal/child_process:285:19)
+    at onErrorNT (node:internal/child_process:483:16)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
